@@ -1,0 +1,26 @@
+{
+    "name": "krixon/net",
+    "description": "Network value objects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karl Rixon",
+            "email": "karlrixon@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Krixon\\Net\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Krixon\\NetTests\\": "tests"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    }
+}
